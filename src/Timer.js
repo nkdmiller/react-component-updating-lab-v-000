@@ -28,7 +28,7 @@ class Timer extends Component {
   }
 
   render() {
-    const { time, color, className, logText } = this.state
+    const { time, color, logText } = this.state
     return (
       <section className="Timer" style={{background: color}} ref={this.timer}>
 
